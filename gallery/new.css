@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* جلوگیری از اسکرول افقی */
+}
+
+body {
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 32px;
+  color: #333;
+}
+
+.main-image-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* اطمینان از عدم overflow */
+}
+
+#main-image {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* محدود کردن ارتفاع تصویر */
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+#main-image:hover {
+  transform: scale(1.02);
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.thumbnail {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 2px solid transparent;
+  flex-shrink: 0;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-color: #888;
+}
+
+@media (max-width: 600px) {
+  .thumbnail {
+    width: 70px;
+    height: 70px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .main-image-box {
+    padding: 12px;
+  }
+
+  #main-image {
+    max-height: 250px;
+  }
+}
+

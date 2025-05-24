@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'ExtraLight';
+    src: url('./font/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+}
+
+body {
+    font-family: 'ExtraLight', cursive;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #F5F5F5;
+    min-height: 100vh;
+}
+
+.weatherform {
+    margin: 30px;
+}
+
+.cityinput {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+    margin: 10px;
+    width: 320px;
+    background-color: #ffffff10;
+    color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 10px #E91E63;
+}
+
+.cityinput::placeholder {
+    color: #ddd;
+}
+
+.btn {
+    padding: 12px 24px;
+    background-color: #E91E63;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C2185B;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    font-size: 22px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #FFEB3B;
+}
+
+p {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.citydisplay, .tempdisplay {
+    font-size: 38px;
+    font-weight: bold;
+    color: #FFF176;
+    margin-bottom: 25px;
+}
+
+.humiddisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #80DEEA;
+}
+
+.decdisplay {
+    font-style: italic;
+    font-weight: bold;
+    color: #CE93D8;
+}
+
+.weatheremoji {
+    margin: 0;
+    font-size: 70px;
+}
+
+.errorcity {
+    font-size: 38px;
+    font-weight: bold;
+    color: #FF8A65;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .weatherform {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .cityinput {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .citydisplay,
+    .tempdisplay {
+        font-size: 28px;
+    }
+
+    .humiddisplay,
+    .decdisplay,
+    p {
+        font-size: 18px;
+    }
+
+    .weatheremoji {
+        font-size: 50px;
+    }
+
+    .errorcity {
+        font-size: 28px;
+        text-align: center;
+    }
+}

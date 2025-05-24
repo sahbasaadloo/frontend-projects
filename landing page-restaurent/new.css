@@ -1,0 +1,354 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: white;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.btn{
+    border: none;
+    background-color: #ffb900;
+    color: white;
+}
+.btn:hover{
+    background-color: #fe9a00;
+}
+.navbar-brand, .nav-link, .btn-outline-success {
+    color: black ;
+}
+.nav-link:hover {
+    color: #fe9a00 ;
+}
+.container img{
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.sec1 .content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+@media (min-width: 768px) {
+    .sec1 .content {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+}
+.sec1 {
+    background:white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    background-size: cover;
+    padding: 80px 20px;
+}
+  
+.hero-img {
+    max-width: 100%;
+    border-radius: 120%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    background: none !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+    display: block;
+}
+  
+.btn-orange {
+    background-color: #FB8C00;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+  
+.btn-orange:hover {
+    background-color: #e65100;
+}
+  
+.sec1 h1 {
+    font-size: 2.8rem;
+    color: #4e342e;
+}
+  
+.highlight {
+    color: #FB8C00;
+}
+  
+.sec2 {
+    padding: 60px 20px;
+    background-color: #fff8f0;
+    text-align: center;
+}
+  
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+  
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+  
+.test {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+  
+.test:hover {
+    transform: translateY(-8px);
+}
+  
+.imgtes {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+  
+.commenter {
+    color: #FF8F00;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.test p {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 12px;
+}
+  
+.stars {
+    color: #FFB400;
+}
+  
+.fa-star {
+    margin-right: 3px;
+}
+  
+.checked {
+    color: #FFB400;
+}
+  
+.test p{
+    padding: 22px 0;
+    color:#424242;
+    line-height: 32px;
+}
+.checked {
+    color: orange;
+}
+h5{
+    font-style: italic;
+    font-size: 17px;
+    margin-top: 13px;
+}
+.recipe-card {
+    border: 3px dashed orange;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+  
+.recipe-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+  
+.recipe-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+  
+.recipe-card button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav2{
+    margin-top:40px;
+}
+.lead{
+    margin-left: 32px;
+    color: #424242;
+}
+.page-link{
+    color: #EF6C00;
+    border-color: #e65100;
+}
+.page-item.active .page-link {
+    color: white;
+    background-color: #EF6C00;
+    border-color: #e65100;
+}
+.form-control{
+    border-color: #EF6C00;
+}
+.form-label{
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+#btn2{
+    margin-top: 28px;
+}
+.form-label{
+    color: #F57F17;
+}
+footer{
+    background-color: black;
+    margin-top: 250px;
+}
+.btn-social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec2{
+    background-color: #f5f5f5;
+}
+.lay {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.blog-layout {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 0px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  
+  /* سمت چپ */
+.blog-left {
+    flex: 1.5;
+    max-width: 500px;
+}
+  
+.blog-left img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 22px;
+    object-fit: cover;
+}
+  
+.blog-main-content {
+    margin-top: 15px;
+    text-align: center;
+}
+  
+.blog-main-content .main {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+  
+.blog-main-content .sub {
+    font-size: 0.9rem;
+    color: #666;
+}
+  
+.pillar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+  
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+  
+.blog-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+  
+.blog-content {
+    flex: 1;
+}
+  
+.main-text {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+  
+.sub-text {
+    font-size: 0.85rem;
+    color: #666;
+}
+.blog{
+    margin-top: 210px;
+    margin-bottom: 70px;
+}
+.main{
+    text-align: left;
+}
+.sub{
+    text-align: left;
+}
+  /*mobile*/
+  @media (max-width: 768px) {
+    .blog-layout {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .blog-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .blog-left {
+      align-items: center;
+    }
+    .main{
+        text-align: center;
+    }
+    .sub{
+        text-align:center;
+    }
+    .blog-left img {
+        display: block;
+        margin: 0 auto;
+      }
+  }
+  

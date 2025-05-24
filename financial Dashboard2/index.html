@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="new.css">
+    <title>Dashboard</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<body>
+    <button id="menu-toggle" class="menu-toggle">
+        <i class="fa fa-bars"></i>
+      </button>
+        <header class="dashboard-header">
+            <div class="header-title">Dashboard</div>
+            <div class="header-search">
+              <input type="text" placeholder="Search">
+            </div>
+            <div class="header-profile">
+              <img src="./pics/image-daniel.jpg">
+            </div>
+            <div class="header-text">
+                <span>Jhon Smith</span>
+            </div>
+            <div class="header-icons">
+                <div class="header-icon1">
+                  <i class="fas fa-bell"></i>
+                </div>
+                <div class="header-icon2">
+                  <i class="fa-solid fa-envelope fa-sm"></i>
+                </div>
+              </div>
+          </header>
+
+
+    <main class="cards">
+        <div class="card-stack">
+            <div class="bank-card card3"></div>
+            <div class="bank-card card2"></div>
+            <div class="bank-card card1">
+              <i class="fa-brands fa-cc-visa fa-xl" style="color: #FFD43B;"></i>
+              <div class="card-number">123 5678 9012 3456</div>
+              <div class="card-detail">
+                <i class="fa-solid fa-wifi fa-rotate-90 fa-lg anten" style="color: #0d0d0d;"></i>
+                <span class="name">Mat Smit</span>
+                <span class="date">12/27</span>
+              </div>
+            </div>
+        </div>
+          <div class="income">
+            <div class="card">
+                <div class="chart-header">
+                  <div class="filters" id="type-filters">
+                    <button class="active" onclick="setType('expenses')">Expenses</button>
+                    <button onclick="setType('income')">Income</button>
+                  </div>
+                  <div class="filters" id="time-filters">
+                    <button class="active" onclick="setTime('all')">All</button>
+                    <button onclick="setTime('d')">D</button>
+                    <button onclick="setTime('w')">W</button>
+                    <button onclick="setTime('m')">M</button>
+                  </div>
+                </div>
+                <canvas id="myChart"></canvas>
+            </div>
+          </div>
+    </main>
+    <nav class="nav-list">
+        <div class="nav-header">
+            <i class="fa-solid fa-shield-heart fa-lg" style="color: #0d0d0d;"></i>
+            <span>SafeMoney</span>
+        </div>
+
+        <div class="nav-texts">
+            <i class="fa-regular fa-square fa-sm" style="color: #424242;"></i>
+            <span>OverView</span>
+        </div>
+
+        <div class="nav-texts">
+            <i class="fa-regular fa-envelope fa-sm" style="color: #424242;"></i>
+            <span>Messages</span>
+        </div>
+        <div class="nav-texts">
+            <i class="fa-regular fa-credit-card" style="color: #424242;"></i>
+            <span>Payment</span>
+        </div>
+        <div class="nav-texts">
+            <i class="fa-regular fa-chart-bar fa-sm" style="color: #424242;"></i>
+            <span>Analytics</span>
+        </div>
+        <div class="nav-texts">
+            <i class="fa-solid fa-arrow-right-arrow-left fa-sm" style="color: #424242;" ></i>
+            <span>Transaction</span>
+        </div>
+        <div class="nav-texts">
+            <i class="fa-solid fa-wallet fa-sm" style="color: #424242;"></i>
+            <span>Wallet</span>
+        </div>
+        <div class="nav-texts">
+            <i class="fa-solid fa-user fa-sm" style="color: #424242;"></i>
+            <span>Profile</span>
+        </div>
+
+        <div class="nav-list2">
+            <div class="nav-texts">
+                <i class="fa-solid fa-headset fa-sm"style="color: #424242;"></i>
+                <span>Support</span>
+            </div>
+            <div class="nav-texts">
+                <i class="fa-solid fa-gear fa-sm"style="color: #424242;"></i>
+                <span>Setting</span>
+            </div>
+            <div class="nav-texts">
+                <i class="fa-solid fa-right-from-bracket fa-flip-horizontal fa-sm"style="color: #424242;"></i>
+                <span>Log out</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Data section -->
+    <aside>
+      <div class="data">
+        <div class="card-box balance">
+          <div class="content">
+            <span class="title">Balance</span>
+            <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+          </div>
+          <div class="details">
+            <span>$1,200</span>
+            <p>+5% this month</p>
+          </div>
+        </div>
+    
+        <div class="card-box investment">
+          <div class="content">
+            <span class="title">Investment</span>
+            <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+          </div>
+          <div class="details">
+            <span>$900</span>
+            <p>+3.2% this month</p>
+          </div>
+        </div>
+    
+        <div class="card-box spending">
+          <div class="content">
+            <span class="title">Spending</span>
+            <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+          </div>
+          <div class="details">
+            <span>$650</span>
+            <p>-1.8% this month</p>
+          </div>
+        </div>
+    
+        <div class="card-box profit">
+          <div class="content">
+            <span class="title">Profit</span>
+            <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i>
+          </div>
+          <div class="details">
+            <span>$300</span>
+            <p>+6.7% this month</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sending">
+  <div class="sendbtn">
+    <p>Sending money to</p>
+    <button class="button">+ Add New</button>
+  </div>
+  <div class="money">
+    <div class="person purple">
+      <img src="./pics/image-patrick.jpg" alt="Oliver Thomas">
+      <span>Oliver Thomas</span>
+    </div>
+    <div class="person green">
+      <img src="./pics/image-jonathan.jpg" alt="Michael Smith">
+      <span>Michael Smith</span>
+    </div>
+    <div class="person orange">
+      <img src="./pics/image-jeanette.jpg" alt="Olivia Brown">
+      <span>Olivia Brown</span>
+    </div>
+    <div class="person blue">
+      <img src="./pics/image-daniel.jpg" alt="James Williams">
+      <span>James Williams</span>
+    </div>
+  </div>
+</div>
+    </aside>
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="new.js"></script>
+</body>
+</html>

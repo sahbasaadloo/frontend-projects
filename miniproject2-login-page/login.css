@@ -1,0 +1,92 @@
+@font-face {
+    font-family: poppins;
+    src: url("./poppins/Poppins-Regular.otf") format("OpenType");
+}
+
+body {
+    background-color: #080710;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    font-family: poppins;
+    color: #FAFAFA;
+}
+
+/* دایره نارنجی بالا */
+.circl1 {
+    position: absolute;
+    background-color: #F57C00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 400px;
+    margin-left: 400px;
+    box-shadow: 2px 2px 9px 1px rgb(91, 86, 86);
+}
+
+/* دایره آبی پایین */
+.circl2 {
+    position: absolute;
+    background-color: #1976D2;
+    width: 200px;
+    height: 200px;
+    margin-top: 1180px;
+    margin-left: 750px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 9px 1px rgb(91, 86, 86);
+}
+
+/* باکس لاگین */
+.login-form {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 3;
+    margin-left: 500px;
+    margin-top: 800px;
+    position: absolute;
+}
+
+/* لیبل فیلدها */
+.label {
+    margin-left: 5px;
+    display: block;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* فیلد ایمیل و پسورد */
+.input {
+    height: 25px;
+    width: 260px;
+    border-radius: 2px;
+    background-color: #424242;
+    color: #FAFAFA;
+    padding-left: 4px;
+    font-size: 12px;
+    border: none;
+}
+
+/* دکمه ورود */
+.save {
+    height: 40px;
+    width: 260px;
+    margin-top: 30px;
+    background-color: #1976D2;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.save:hover {
+    background-color: #1565C0;
+}
