@@ -13,6 +13,10 @@ A clean and modern landing page for **Starbucks**, designed with HTML, CSS, and 
 - 🔄 Toggleable mobile navigation menu
 
 ---
+## Demo
+
+Live demo of this project is available here:  
+[Live Demo](https://6831f04c47913f3acc1c8bbd--thunderous-souffle-20ff54.netlify.app/)
 
 ## 📸 Preview
 
