@@ -18,6 +18,10 @@ A modern and responsive **Financial Dashboard** built with **HTML**, **CSS**, an
 ![Dashboard Preview](./pics/5f4ebf8b732.png)  
 ![Dashboard Preview](./pics/5f4ebf8b733.png)  
 
+## Demo
+
+Live demo of this project is available here:  
+[Live Demo](https://dainty-lebkuchen-6f6a22.netlify.app)
 
 ## 🛠️ Technologies Used
 
