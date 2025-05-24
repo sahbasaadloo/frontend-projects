@@ -13,6 +13,10 @@ A responsive and elegant **landing page for a food recipe website**, created usi
 - ✅ Mobile-friendly with no JavaScript required
 
 ---
+## Demo
+
+Live demo of this project is available here:  
+[Live Demo](https://6831edfb900656d3bf0ad90c--poetic-melba-d3545a.netlify.app/)
 
 ## 📸 Preview
 
