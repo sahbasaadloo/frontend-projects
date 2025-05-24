@@ -14,6 +14,11 @@ A clean and minimal form with **client-side validation** using pure **JavaScript
 - ✅ Built using only HTML, CSS, and vanilla JavaScript
 
 ---
+## Demo
+
+Live demo of this project is available here:  
+[Live Demo]([https://your-netlify-project-name.netlify.app](https://6831f0df502a363ed8501fd2--dapper-cascaron-114549.netlify.app/))
+
 
 ## 📸 Preview
 
