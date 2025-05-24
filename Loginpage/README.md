@@ -13,7 +13,10 @@ A beautifully styled **login page with a modern glassmorphism UI**, built using 
 - ✅ Built with only HTML & CSS (no JavaScript)
 
 ---
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://6831f0df502a363ed8501fd2--dapper-cascaron-114549.netlify.app/)
 ## 📸 Preview
 
 > ![Login Page Preview](./image/AA9AevNjIn5.png)
