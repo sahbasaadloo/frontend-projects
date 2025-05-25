@@ -13,9 +13,13 @@ A beautiful **glass-style login form** using only **HTML** and **CSS** with a mo
 - ✅ Responsive and elegant layout (for small containers)
 
 ---
+## Demo
+
+Live demo of this project is available here:  
+[Live Demo](https://6832c20cb82cb1c5a585c56b--enchanting-haupia-dc1f7c.netlify.app/)
 
 ## 📸 Preview
-
+---
 ![Glass Login Preview](./images/66ptOJShZHv.png)
 
 ---
