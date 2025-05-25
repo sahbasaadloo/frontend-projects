@@ -10,7 +10,10 @@ A beautifully designed and fully responsive **To-Do List Web Application** built
 ![To-Do List Mockup](./images/zlEsB5HC8Fe.png)
 
 ---
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://gregarious-frangipane-77debe.netlify.app/)
 ## ✨ Features
 
 - 🖊️ Add new tasks
