@@ -14,6 +14,8 @@ A beautifully designed and fully responsive **To-Do List Web Application** built
 
 Live demo of this project is available here:  
 [Live Demo](https://gregarious-frangipane-77debe.netlify.app/)
+
+---
 ## ✨ Features
 
 - 🖊️ Add new tasks
