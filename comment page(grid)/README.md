@@ -14,7 +14,10 @@ This project is a simple HTML and CSS webpage created for practice purposes. The
 ![Mockup](./images/3d2355eaed2.png)
 ![Mockup](./images/3ded1833cd2.png)
 ![Mockup](./images/5f4ebf8b732.png)
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://6832bf7a8988c6e077fc5dd0--quiet-wisp-909393.netlify.app/)
 ## Technologies Used
 
 - HTML5  
