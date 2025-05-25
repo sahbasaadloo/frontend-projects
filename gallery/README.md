@@ -18,4 +18,7 @@ A responsive image gallery built with **HTML**, **CSS**, and **vanilla JavaScrip
 - ⚡ Pure JavaScript (no libraries)
 
 ---
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://6832c0e0f4b0a314239a56ff--chic-heliotrope-ea7110.netlify.app/)
