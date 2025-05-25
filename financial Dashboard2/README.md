@@ -10,7 +10,7 @@ A modern and responsive **Financial Dashboard** built with **HTML**, **CSS**, an
 - light color theme (optional toggle)
 - JavaScript-powered dynamic values (can be extended to fetch from APIs)
 
-## Demo
+## Preview
 
 ![Dashboard Preview](./pics/5f4ebf8b732%20(1).png)  
 ![Dashboard Preview](./pics/5f4ebf8b732%20(2).png)  
