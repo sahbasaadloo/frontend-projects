@@ -19,11 +19,15 @@ This project is perfect for beginner to intermediate developers who want to stre
 
 
 👇👇👇
-## 🚀 Features
+## 🚀 Preview
 
 ![Drum kit Preview](./images/QFZ3lOPcwrU.png)
 
+---
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://6832c4f929f4aa1b3129551d--cozy-elf-d1633f.netlify.app/)
 
 ## 📁 Project Structure
 
