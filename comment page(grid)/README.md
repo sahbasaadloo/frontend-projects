@@ -23,8 +23,3 @@ Live demo of this project is available here:
 - HTML5  
 - CSS3 (Grid Layout)
 
-## Getting Started
-
-1. Download or clone the project:
-   ```bash
-   git clone https://github.com/your-username/testmonia-page.git
