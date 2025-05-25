@@ -10,12 +10,9 @@ A simple and elegant **Countdown Timer** built using **HTML**, **CSS**, and **Ja
 - Easy to customize target date/time
 - Built with vanilla JavaScript (no frameworks)
 
-## Demo
+## Preview
 
 ![Countdown Timer Preview](./images/76a742700f3.png)  
-*Replace the image with your actual project screenshot*
-
-You can try it live here: [Live Demo URL] *(if you have deployed it)*
 
 ## Technologies Used
 
