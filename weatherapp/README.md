@@ -26,7 +26,10 @@ A responsive and visually appealing weather application built using **HTML**, **
 
 ![Weather App Preview](./images/5@P8amcjs.png)
 ![Weather App Preview](./images/u00hhrJh@.png)
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://6832bed2f4b0a3111a9a5615--bespoke-lollipop-40280f.netlify.app/)
 ## 🔮 Future plans
 
 🌡 Toggle between Celsius and Fahrenheit
