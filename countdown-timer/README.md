@@ -9,10 +9,13 @@ A simple and elegant **Countdown Timer** built using **HTML**, **CSS**, and **Ja
 - Responsive and visually appealing design
 - Easy to customize target date/time
 - Built with vanilla JavaScript (no frameworks)
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo](https://6832c078b82cb1c26485c502--hilarious-halva-64b274.netlify.app/)
 ## Preview
 
-![Countdown Timer Preview](./images/76a742700f3.png)  
+![Mocup](./images/76a742700f3.png)  
 
 ## Technologies Used
 
