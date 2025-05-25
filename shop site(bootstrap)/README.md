@@ -28,7 +28,6 @@ A clean and responsive **clothing store landing page** built with **HTML**, **CS
 ![Clothing Store Preview](./images/mocups/TcJdb76WCp2%20(2).png)
 ![Clothing Store Preview](./images/mocups/TcJdb76WCp2.png)
 ---
-
 ## 🗂️ Folder Structure
 
 📁 clothing-store/
