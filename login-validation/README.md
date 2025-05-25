@@ -21,6 +21,12 @@ A clean and minimal form with **client-side validation** using pure **JavaScript
 ![Form Preview](./images/yjZazFdOSEm.png)
 ![Form Preview](./images/YurrUL0GDt5.png)
 ---
+## Demo
+
+Live demo of this project is available here:  
+[Live Demo](https://6832c17af4b0a315519a5716--mellifluous-sprinkles-883940.netlify.app/)
+
+---
 
 ## 🗂️ Folder Structure
 
