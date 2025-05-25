@@ -14,7 +14,12 @@ A clean and responsive **clothing store landing page** built with **HTML**, **CS
 - ✨ Small JS script (e.g., "Add to cart" alert)
 
 ---
+## Demo
 
+Live demo of this project is available here:  
+[Live Demo]()
+
+---
 ## 📸 Preview
 
 ![Clothing Store Preview](./images/mocups/cTK6rWr31wm.png)
