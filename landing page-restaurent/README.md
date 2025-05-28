@@ -45,7 +45,7 @@ Live demo of this project is available here:
 
 ```plaintext
 📁 food-recipe-landing/
-├── new.html
+├── index.html
 ├── css/
 │   └── new.css
 ├── pics/
