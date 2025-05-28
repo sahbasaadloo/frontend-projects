@@ -41,7 +41,7 @@ Live demo of this project is available here:
 🌗 Add dark/light theme toggle
 ## 📁 Project Structure
 weather-app/
-├── new.html 
+├── index.html 
 ├── new.css  
 ├── new.js               
 ├── /font/
