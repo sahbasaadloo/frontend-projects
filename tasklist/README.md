@@ -38,7 +38,7 @@ Live demo of this project is available here:
 ## 🚀 How it works
 
 todo-list/
-├── new.html
+├── index.html
 ├── new.css
 ├── new.js
 └── images/
