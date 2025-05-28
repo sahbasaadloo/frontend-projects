@@ -76,4 +76,25 @@ const chartConfig = {
 
 new Chart(document.getElementById('myChart'), chartConfig);
 
+financial-dashboard/
+│
+├── index.html   
+├── README.md               
+├── style/                   
+│   ├── new.css 
+│
+│
+├── js/
+│   ├── new.js 
+│   └── chart-config.js     
+│
+├── assets/
+│   ├── pics/             
+│   │   ├── preview1.png
+│   │   ├── preview2.png
+│   │   └── ...
+│   └── fonts/
+│
+
+
 
