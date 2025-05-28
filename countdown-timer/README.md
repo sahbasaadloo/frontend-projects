@@ -23,4 +23,17 @@ Live demo of this project is available here:
 - CSS3 (Flexbox/Grid for layout)
 - JavaScript (ES6+)
 
+- 
+##Structure
+📁 countdown-timer/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── images/
+│   └── 76a742700f3.png
+└── README.md
+
+
 
