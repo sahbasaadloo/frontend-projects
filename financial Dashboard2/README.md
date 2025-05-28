@@ -90,8 +90,8 @@ financial-dashboard/
 │
 ├── assets/
 │   ├── pics/             
-│   │   ├── preview1.png
-│   │   ├── preview2.png
+│   │   ├── 5f4ebf8b732%20(2).png
+│   │   ├── 5f4ebf8b732%20(1).png
 │   │   └── ...
 │   └── fonts/
 │
