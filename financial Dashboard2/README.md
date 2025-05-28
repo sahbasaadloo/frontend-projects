@@ -76,9 +76,4 @@ const chartConfig = {
 
 new Chart(document.getElementById('myChart'), chartConfig);
 
-## How to Use
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/sahbasaadloo/financial-dashboard.git
