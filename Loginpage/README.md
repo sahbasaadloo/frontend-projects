@@ -28,7 +28,7 @@ Live demo of this project is available here:
 
 ```plaintext
 📁 glass-login-page/
-├── new.html
+├── index.html
 ├── css/
 │   └── new.css
 ├── image/
